@@ -1,0 +1,63 @@
+:root {
+	--red-main-color: #FF0000; 
+}
+
+.all-flags{
+	display: flex;
+	gap: 30px;	
+}
+
+.flag-wrap {
+	width: 330px;
+	min-width: 330px;
+	height: 200px;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+}
+
+.flag-wrap > div {
+	width: inherit;
+	height: inherit;
+}
+
+.canada {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.canada__red-bord {
+	width: 20%;
+	background-color: var(--red-main-color);
+	height: 100%;
+}
+
+.canada__leaf-icon {
+	width: 40%;
+	aspect-ratio: 1/1;
+}
+
+.jp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jp__red-dot {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	background-color: var(--red-main-color);
+}
+
+.ussr {
+	background-color: var(--red-main-color);
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.ussr__serp-molot {
+	width: 20%;
+	aspect-ratio: 1/1;
+}
