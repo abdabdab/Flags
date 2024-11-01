@@ -64,3 +64,9 @@
 	width: 20%;
 	aspect-ratio: 1/1;
 }
+
+.shade {
+	background: linear-gradient(rgba(255,255,255,0.4) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.6));
+	position: absolute;
+	border-radius: inherit;
+}
